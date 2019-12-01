@@ -6,11 +6,11 @@ mv $file_path ./data/test/
 
 echo "========TIME(Preprocessing)========"
 
-time /anaconda3/envs/MachineLearning/bin/python3 ~/PycharmProjects/AIContest/preprocessing.py
+time /anaconda3/envs/MachineLearning/bin/python3 preprocessing.py
 
 echo "==================================="
 
-time /anaconda3/envs/MachineLearning/bin/python3 ~/PycharmProjects/AIContest/predict.py
+time /anaconda3/envs/MachineLearning/bin/python3 predict.py
 
 echo "==================================="
 
